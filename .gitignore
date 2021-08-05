@@ -1,2 +1,10 @@
 /Back/src/EFCoreDapperTuto_Data.mdf
 /Back/src/EFCoreDapperTuto_Log.ldf
+/Stuff
+/obj
+/Back/src/EF-CoreDapperTuto.API/bin
+/Back/src/EF-CoreDapperTuto.API/obj
+/Back/src/EF-CoreDapperTuto.Domain/bin
+/Back/src/EF-CoreDapperTuto.Domain/obj
+/Back/src/EF-CoreDapperTuto.Persistence/bin
+/Back/src/EF-CoreDapperTuto.Persistence/obj
