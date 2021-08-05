@@ -10,7 +10,7 @@ Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html)
 
 ## Personal notes
 
-The following files should be at the Persistence layer:
+The following files should be at the [Persistence](Back/src/EF-CoreDapperTuto.Persistence) layer:
 
 -   [IApplicationDbContext](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationDbContext.cs)
 -   [IApplicationReadDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationReadDbConnection.cs)
