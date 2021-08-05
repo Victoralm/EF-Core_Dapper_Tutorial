@@ -27,6 +27,10 @@ var annotated_dup =
         [ "Contexts", "namespace_e_f___core_dapper_tuto_1_1_persistence_1_1_contexts.html", [
           [ "ApplicationDbContext", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_contexts_1_1_application_db_context.html", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_contexts_1_1_application_db_context" ]
         ] ],
+        [ "DTOs", "namespace_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os.html", [
+          [ "DepartmentDTO", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os_1_1_department_d_t_o.html", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os_1_1_department_d_t_o" ],
+          [ "EmployeeDTO", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os_1_1_employee_d_t_o.html", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os_1_1_employee_d_t_o" ]
+        ] ],
         [ "Migrations", "namespace_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations.html", [
           [ "Initial", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations_1_1_initial.html", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations_1_1_initial" ],
           [ "ApplicationDbContextModelSnapshot", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations_1_1_application_db_context_model_snapshot.html", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations_1_1_application_db_context_model_snapshot" ]

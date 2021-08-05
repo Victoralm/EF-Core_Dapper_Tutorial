@@ -10,6 +10,8 @@ var hierarchy =
       [ "EF_CoreDapperTuto.Persistence.Contexts.ApplicationDbContext", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_contexts_1_1_application_db_context.html", null ]
     ] ],
     [ "EF_CoreDapperTuto.Domain.Entities.Department", "class_e_f___core_dapper_tuto_1_1_domain_1_1_entities_1_1_department.html", null ],
+    [ "EF_CoreDapperTuto.Persistence.DTOs.DepartmentDTO", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os_1_1_department_d_t_o.html", null ],
+    [ "EF_CoreDapperTuto.Persistence.DTOs.EmployeeDTO", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_d_t_os_1_1_employee_d_t_o.html", null ],
     [ "EF_CoreDapperTuto.Domain.Interfaces.IApplicationDbContext", "interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_db_context.html", [
       [ "EF_CoreDapperTuto.Persistence.Contexts.ApplicationDbContext", "class_e_f___core_dapper_tuto_1_1_persistence_1_1_contexts_1_1_application_db_context.html", null ]
     ] ],

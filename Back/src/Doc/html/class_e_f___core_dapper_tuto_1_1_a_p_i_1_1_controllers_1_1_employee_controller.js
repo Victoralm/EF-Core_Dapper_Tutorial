@@ -1,6 +1,7 @@
 var class_e_f___core_dapper_tuto_1_1_a_p_i_1_1_controllers_1_1_employee_controller =
 [
     [ "EmployeeController", "class_e_f___core_dapper_tuto_1_1_a_p_i_1_1_controllers_1_1_employee_controller.html#a55546e852b9c205189d5eaf16b639bf6", null ],
+    [ "AddNewEmployeeWithDepartment", "class_e_f___core_dapper_tuto_1_1_a_p_i_1_1_controllers_1_1_employee_controller.html#a8d8696954584b8ef233a844c379bfc91", null ],
     [ "GetAllEmployees", "class_e_f___core_dapper_tuto_1_1_a_p_i_1_1_controllers_1_1_employee_controller.html#ad7849567814ed982f4876a4607cdb81e", null ],
     [ "GetAllEmployeesById", "class_e_f___core_dapper_tuto_1_1_a_p_i_1_1_controllers_1_1_employee_controller.html#a20367d10b2b0a27c3fbfec0f53b42a94", null ],
     [ "DbContext", "class_e_f___core_dapper_tuto_1_1_a_p_i_1_1_controllers_1_1_employee_controller.html#ae22cb725a8aed27bc776145ab3473790", null ],
