@@ -4,9 +4,8 @@
 
 ## BackEnd
 
-Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html)
-
-Class diagrams made with [Graphviz](https://graphviz.org/download/)
+Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html) (with
+[Graphviz](https://graphviz.org/download/) dependency to generate the class diagrams)
 
 ## Personal notes
 
