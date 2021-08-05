@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_read_db_connection.html" title="Sets the template for the read operations on the DB (Should be at Persistance layer)" alt="" coords="5,21,265,62"/>
+<area shape="rect" id="node2" href="$interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_write_db_connection.html" title="Sets the template for the write operations on the DB (Should be at Persistance layer)" alt="" coords="352,5,548,61"/>
+<area shape="rect" id="node4" href="$class_e_f___core_dapper_tuto_1_1_persistence_1_1_connections_1_1_application_read_db_connection.html" title="Implements the read operations on the DB" alt="" coords="313,86,587,127"/>
+<area shape="rect" id="node3" href="$class_e_f___core_dapper_tuto_1_1_persistence_1_1_connections_1_1_application_write_db_connection.html" title="Implements the write operations on the DB" alt="" coords="635,13,909,54"/>
+<area shape="rect" id="node5" title=" " alt="" coords="91,93,180,120"/>
+</map>

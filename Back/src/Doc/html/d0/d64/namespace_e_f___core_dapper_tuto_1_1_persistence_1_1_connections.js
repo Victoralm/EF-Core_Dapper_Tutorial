@@ -1,5 +1,0 @@
-var namespace_e_f___core_dapper_tuto_1_1_persistence_1_1_connections =
-[
-    [ "ApplicationReadDbConnection", "d9/da9/class_e_f___core_dapper_tuto_1_1_persistence_1_1_connections_1_1_application_read_db_connection.html", "d9/da9/class_e_f___core_dapper_tuto_1_1_persistence_1_1_connections_1_1_application_read_db_connection" ],
-    [ "ApplicationWriteDbConnection", "d5/d75/class_e_f___core_dapper_tuto_1_1_persistence_1_1_connections_1_1_application_write_db_connection.html", "d5/d75/class_e_f___core_dapper_tuto_1_1_persistence_1_1_connections_1_1_application_write_db_connection" ]
-];

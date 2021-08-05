@@ -1,0 +1,5 @@
+<map id="EF_CoreDapperTuto.Persistence.Connections.ApplicationWriteDbConnection" name="EF_CoreDapperTuto.Persistence.Connections.ApplicationWriteDbConnection">
+<area shape="rect" id="node1" title="Implements the write operations on the DB" alt="" coords="5,520,328,935"/>
+<area shape="rect" id="node2" href="$interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_write_db_connection.html" title="Sets the template for the write operations on the DB (Should be at Persistance layer)" alt="" coords="5,351,328,472"/>
+<area shape="rect" id="node3" href="$interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_read_db_connection.html" title="Sets the template for the read operations on the DB (Should be at Persistance layer)" alt="" coords="51,5,283,303"/>
+</map>

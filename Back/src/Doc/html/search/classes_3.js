@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['iapplicationdbcontext_86',['IApplicationDbContext',['../de/def/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_db_context.html',1,'EF_CoreDapperTuto::Domain::Interfaces']]],
-  ['iapplicationreaddbconnection_87',['IApplicationReadDbConnection',['../d6/df1/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_read_db_connection.html',1,'EF_CoreDapperTuto::Domain::Interfaces']]],
-  ['iapplicationwritedbconnection_88',['IApplicationWriteDbConnection',['../dc/d65/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_write_db_connection.html',1,'EF_CoreDapperTuto::Domain::Interfaces']]],
-  ['initial_89',['Initial',['../d4/d1f/class_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations_1_1_initial.html',1,'EF_CoreDapperTuto::Persistence::Migrations']]]
+  ['iapplicationdbcontext_80',['IApplicationDbContext',['../interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_db_context.html',1,'EF_CoreDapperTuto::Domain::Interfaces']]],
+  ['iapplicationreaddbconnection_81',['IApplicationReadDbConnection',['../interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_read_db_connection.html',1,'EF_CoreDapperTuto::Domain::Interfaces']]],
+  ['iapplicationwritedbconnection_82',['IApplicationWriteDbConnection',['../interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_write_db_connection.html',1,'EF_CoreDapperTuto::Domain::Interfaces']]],
+  ['initial_83',['Initial',['../class_e_f___core_dapper_tuto_1_1_persistence_1_1_migrations_1_1_initial.html',1,'EF_CoreDapperTuto::Persistence::Migrations']]]
 ];

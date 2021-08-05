@@ -5,6 +5,7 @@
 ## BackEnd
 
 Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html)
+Class diagrams made with [Graphviz](https://graphviz.org/download/)
 
 ## Personal notes
 

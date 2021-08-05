@@ -1,0 +1,3 @@
+<map id="EF_CoreDapperTuto.Domain.Interfaces.IApplicationReadDbConnection" name="EF_CoreDapperTuto.Domain.Interfaces.IApplicationReadDbConnection">
+<area shape="rect" id="node1" title="Sets the template for the read operations on the DB (Should be at Persistance layer)" alt="" coords="5,5,265,317"/>
+</map>
