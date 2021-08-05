@@ -12,6 +12,6 @@ Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html)
 
 The following files should be at the [Persistence](Back/src/EF-CoreDapperTuto.Persistence) layer:
 
--   [Interfaces/IApplicationDbContext](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationDbContext.cs)
--   [Interfaces/IApplicationReadDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationReadDbConnection.cs)
--   [Interfaces/IApplicationWriteDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationWriteDbConnection.cs)
+-   [EF-CoreDapperTuto.Domain/Interfaces/IApplicationDbContext](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationDbContext.cs)
+-   [EF-CoreDapperTuto.Domain/Interfaces/IApplicationReadDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationReadDbConnection.cs)
+-   [EF-CoreDapperTuto.Domain/Interfaces/IApplicationWriteDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationWriteDbConnection.cs)
