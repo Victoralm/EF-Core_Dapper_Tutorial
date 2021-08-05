@@ -1,10 +1,8 @@
 # [EF-Core_Dapper_Tutorial](https://codewithmukesh.com/blog/using-entity-framework-core-and-dapper/)
 
-Entity Framework and Dapper Tutorial
+[Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) and [Dapper](https://dapper-tutorial.net/) Tutorial
 
 ## BackEnd
-
-[Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
 
 Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html)
 
