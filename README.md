@@ -20,6 +20,14 @@ Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html) (with
 -   [EF-CoreDapperTuto.Persistence/DTOs/DepartmentDTO](Back/src/EF-CoreDapperTuto.Persistence/DTOs/DepartmentDTO.cs)
 -   [EF-CoreDapperTuto.Persistence/DTOs/EmployeeDTO](Back/src/EF-CoreDapperTuto.Persistence/DTOs/EmployeeDTO.cs)
 
+### The methods that deals with HTTP requests
+
+The file
+[EF-CoreDapperTuto.API\Controllers\EmployeeController.cs](Back\src\EF-CoreDapperTuto.API\Controllers\EmployeeController.cs)
+contains all the implementation of the sql queries... Ideally, it should be done
+on the Persistence layer. Then called by another method on the Application
+layer, that would be used by the API layer (the controller).
+
 ### Omnisharp
 
 Sometimes it drives me nuts... 😜
