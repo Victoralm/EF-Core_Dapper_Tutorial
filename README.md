@@ -8,7 +8,7 @@ Entity Framework and Dapper Tutorial
 
 Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html)
 
-## Personal opinions
+## Personal notes
 
 The following files should be at the Persistence layer:
 
