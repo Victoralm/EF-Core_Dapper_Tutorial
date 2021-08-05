@@ -23,7 +23,7 @@ Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html) (with
 ### The methods that deals with HTTP requests
 
 The file
-[EF-CoreDapperTuto.API\Controllers\EmployeeController.cs](Back\src\EF-CoreDapperTuto.API\Controllers\EmployeeController.cs)
+[EF-CoreDapperTuto.API/Controllers/EmployeeController.cs](Back/src/EF-CoreDapperTuto.API/Controllers/EmployeeController.cs)
 contains all the implementation of the sql queries... Ideally, it should be done
 on the Persistence layer. Then called by another method on the Application
 layer, that would be used by the API layer (the controller).
