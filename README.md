@@ -15,6 +15,11 @@ Documentation pages made with [Doxygen](https://www.doxygen.nl/index.html) (with
 -   [EF-CoreDapperTuto.Domain/Interfaces/IApplicationReadDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationReadDbConnection.cs)
 -   [EF-CoreDapperTuto.Domain/Interfaces/IApplicationWriteDbConnection](Back/src/EF-CoreDapperTuto.Domain/Interfaces/IApplicationWriteDbConnection.cs)
 
+## The following files should be at the Application layer (that doesn't exist in the tutorial):
+
+-   [EF-CoreDapperTuto.Persistence/DTOs/DepartmentDTO](Back/src/EF-CoreDapperTuto.Persistence/DTOs/DepartmentDTO.cs)
+-   [EF-CoreDapperTuto.Persistence/DTOs/EmployeeDTO](Back/src/EF-CoreDapperTuto.Persistence/DTOs/EmployeeDTO.cs)
+
 ### Omnisharp
 
 Sometimes it drives me nuts... 😜

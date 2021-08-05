@@ -1,7 +1,10 @@
 using EF_CoreDapperTuto.Domain.Entities;
 using EF_CoreDapperTuto.Domain.Interfaces;
+using EF_CoreDapperTuto.Persistence.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Data.Common;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -67,6 +70,61 @@ namespace EF_CoreDapperTuto.API.Controllers
         {
             var employees = await this.DbContext.Employees.Include(a => a.Department).Where(a => a.Id == id).ToListAsync();
             return Ok(employees);
+        }
+
+        /// <summary>
+        /// Deals with post HTTP requests
+        /// </summary>
+        /// <param name="employeeDto"></param>
+        /// <returns>An Ok HTTP response containing the Id of the new generated
+        /// record on Employees table</returns>
+        [HttpPost]
+        public async Task<IActionResult> AddNewEmployeeWithDepartment(EmployeeDTO employeeDto)
+        {
+            this.DbContext.Connection.Open();
+            using (var transaction = this.DbContext.Connection.BeginTransaction())
+            {
+                try
+                {
+                    this.DbContext.Database.UseTransaction(transaction as DbTransaction);
+                    //Check if Department Exists (By Name)
+                    bool DepartmentExists = await this.DbContext.Departments.AnyAsync(a => a.Name == employeeDto.Department.Name);
+                    if(DepartmentExists)
+                    {
+                        throw new Exception("Department Already Exists");
+                    }
+                    //Add Department
+                    var addDepartmentQuery = $"INSERT INTO Departments(Name,Description) VALUES('{employeeDto.Department.Name}','{employeeDto.Department.Description}');SELECT CAST(SCOPE_IDENTITY() as int)";
+                    var departmentId = await this.WriteDbConnection.QuerySingleAsync<int>(addDepartmentQuery, transaction: transaction);
+                    //Check if Department Id is not Zero.
+                    if(departmentId == 0)
+                    {
+                        throw new Exception("Department Id");
+                    }
+                    //Add Employee
+                    var employee = new Employee
+                    {
+                        DepartmentId = departmentId,
+                        Name = employeeDto.Name,
+                        Email = employeeDto.Email
+                    };
+                    await this.DbContext.Employees.AddAsync(employee);
+                    await this.DbContext.SaveChangesAsync(default);
+                    //Commmit
+                    transaction.Commit();
+                    //Return EmployeeId
+                    return Ok(employee.Id);
+                }
+                catch (Exception)
+                {
+                    transaction.Rollback();
+                    throw;
+                }
+                finally
+                {
+                    this.DbContext.Connection.Close();
+                }
+            }
         }
     }
 }
