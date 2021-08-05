@@ -1,0 +1,3 @@
+{
+    "omnisharp.defaultLaunchSolution": "${workspaceFolder}/Back/src/EF-CoreDapperTuto.sln"
+}

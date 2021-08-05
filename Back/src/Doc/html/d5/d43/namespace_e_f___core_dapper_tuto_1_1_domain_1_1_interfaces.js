@@ -1,0 +1,6 @@
+var namespace_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces =
+[
+    [ "IApplicationDbContext", "de/def/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_db_context.html", "de/def/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_db_context" ],
+    [ "IApplicationReadDbConnection", "d6/df1/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_read_db_connection.html", "d6/df1/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_read_db_connection" ],
+    [ "IApplicationWriteDbConnection", "dc/d65/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_write_db_connection.html", "dc/d65/interface_e_f___core_dapper_tuto_1_1_domain_1_1_interfaces_1_1_i_application_write_db_connection" ]
+];
